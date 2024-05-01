@@ -12,4 +12,4 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
     volumes:
-      - ./config.yml:/config.yml
+      - ./config_prod.yml:/config.yml
