@@ -1,3 +1,6 @@
+#config prod
+sink-connector-lightweight/docker/config_prod.yml
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
