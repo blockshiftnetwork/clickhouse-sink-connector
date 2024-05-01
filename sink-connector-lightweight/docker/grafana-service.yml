@@ -5,7 +5,7 @@ services:
     image: grafana/grafana:latest
     restart: "no"
     ports:
-      - "3000:3000"
+      - "3000:13000"
     environment:
       - DS_PROMETHEUS=prometheus
       - GF_USERS_DEFAULT_THEME=light
